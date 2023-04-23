@@ -17,6 +17,23 @@ This project comprises 3 java files, each of which play a part in creating an ap
 3. If the password entered is valid, a new window is created, where users can scroll through all their tasks, and choose any task they want to check the power consumption of. The double value displayed changes with the selected application.
 <img width="533" alt="Screenshot 2023-04-23 at 4 47 14 PM" src="https://user-images.githubusercontent.com/22656175/233829576-ab7c0712-3909-4774-a5b9-bbc7fef48d15.png">
 
-##Motivation
+## Motivation
+Tools such as the Intel Power Gadget allow users to measure CPU and GPU Consumption of the computer, and not individual processes. This project allows users to be aware of CPU usage in quantitative terms.
 
-##Limitations and possible improvements
+## How to run the program
+The executable .jar file can be downloaded from this repository, by going to GUI > out > artifacts/GUI_jar > GUI.jar.
+
+## Limitations 
+1. Reliance on the powermetrics command
+  - The CPU usage data used and displayed by this program is obtained via the powermetrics command. As such, only Mac OS (which come pre-installed with the command line utility) are able to use the program.
+  - As the powermetrics command requires root privileges to be run, our program has to obtain the user's password.
+2. Usage of programming language
+  - Java was chosen as a programming language due to familiarity with the Java syntax and documentation.
+3. Accuracy
+  - The power usage is represented via CPU usage of the application. However, we may wish to include GPU usage in our calculations.
+  
+## Possible improvements
+1. Choice of programming language
+  - Rather than Java, a lower-level programming language such as C++ could be used, as it provides low-level access to the operating system and low overhead.
+2. Operating System limitations
+  - There may be other ways to obtain application-specific CPU and GPU usage which could be supported by a wider range of operating systems.
