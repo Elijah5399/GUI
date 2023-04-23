@@ -9,6 +9,7 @@ This project comprises 3 java files, each of which play a part in creating an ap
 5. Netbeans IDE
 
 **Documentation**
+
 The Javadoc generated from the project is hosted on: [Project Javadoc](https://spontaneous-semifreddo-5b214e.netlify.app/package-summary.html).
 
 **Features**
