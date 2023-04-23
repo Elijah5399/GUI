@@ -1,9 +1,17 @@
 /**
- *
+ * A class which generates the frame to allow users to select their task and see its
+ * power consumption.
  * @author elijahchia
  */
+
 public class TasksGUI extends javax.swing.JFrame {
+    /**
+     * 3D array with tasks and CPU Usage obtained from constructor.
+     */
     String[][] tasksAndPowerConsumption;
+    /**
+     * A ListModel which contains data put into the JList.
+     */
     javax.swing.DefaultListModel<String> listModel;
 
     /**
@@ -102,11 +110,26 @@ public class TasksGUI extends javax.swing.JFrame {
         powerDisplay.setText(power);
     }
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify
+    /**
+     * Label Component prompting users to choose a task.
+     */
     private javax.swing.JLabel chooseMessage;
+    /**
+     * Label Component, explaining that power details are found below
+     */
     private javax.swing.JLabel powerConsMsg;
+    /**
+     * Label Component which changes everytime a new task is selected.
+     */
     private javax.swing.JLabel powerDisplay;
+    /**
+     * ScrollPane which allows scrolling through the task list.
+     */
     private javax.swing.JScrollPane scrollPane;
+    /**
+     * A list of tasks captures by powermetrics.
+     */
     private javax.swing.JList<String> taskList;
     // End of variables declaration                   
 }

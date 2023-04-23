@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5fb0229-16a5-40c5-abfc-883cd6f50f6a" name="Changes" comment="Initial Commit">
+    <list default="true" id="a5fb0229-16a5-40c5-abfc-883cd6f50f6a" name="Changes" comment="Added additional comments">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PowerTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/PowerTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TasksGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/TasksGUI.java" afterDir="false" />
     </list>
@@ -36,7 +38,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682234230012</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added additional comments">
+      <created>1682235472218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682235472218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,6 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added additional comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional comments" />
   </component>
 </project>

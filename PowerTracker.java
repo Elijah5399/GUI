@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 /**
  * PowerTracker class.
  * Provides the following functionality:
@@ -6,9 +9,7 @@
  *    if the password is correct.
  * @author elijahchia
  */
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 public class PowerTracker {
     /**
      * A method which takes in a possibly invalid password, and returns a 3D array containing
@@ -77,4 +78,9 @@ public class PowerTracker {
             return true;
         }
     }
+
+    /**
+     * The constructor method for PowerTracker. We do not use it.
+     */
+    PowerTracker(){}
 }

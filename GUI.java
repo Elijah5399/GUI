@@ -1,9 +1,10 @@
 import javax.swing.JOptionPane;
-
 /**
- *
+ * A class which serves as the entry point for the program. The first swing frame
+ * is generated here. Uses PowerTracker::isCorrectPassword to verify the user's password.
  * @author elijahchia
  */
+
 public class GUI extends javax.swing.JFrame {
 
     /**
@@ -110,6 +111,7 @@ public class GUI extends javax.swing.JFrame {
     }
 
     /**
+     * Main method of GUI.java. Responsible for creating the GUI instance.
      * @param args the command line arguments
      */
     public static void main(String args[]) {
@@ -144,9 +146,18 @@ public class GUI extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify
+    /**
+     * Button Component for users to confirm their password.
+     */
     private javax.swing.JButton enterButton;
+    /**
+     * PasswordField Component for users to enter their password.
+     */
     private javax.swing.JPasswordField passwordField;
+    /**
+     * Label component to prompt the user for their password.
+     */
     private javax.swing.JLabel passwordPrompt;
     // End of variables declaration                   
 }
