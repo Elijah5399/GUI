@@ -6,7 +6,7 @@ This project comprises 3 java files, each of which play a part in creating an ap
 2. Java Swing framework (for displaying GUI)
 3. powermetrics command line utility for Mac
 4. IntelliJ IDE
-5. Netbeans IDE
+5. NetBeans IDE
 
 ## Documentation
 
