@@ -12,12 +12,12 @@ This project comprises 3 java files, each of which play a part in creating an ap
 1. Simplicity
   - Using the application does not require any technical expertise. Users are only required to run the .jar file.
   - Code is split evenly into the 3 java files: 
-  1. GUI.java
-    - Generates the first Swing frame and invokes methods from PowerTracker.java
-  2. PowerTracker.java 
-    - Using the Java Process and ProcessBuilder API, uses superuser permissions to run the powermetrics command. Also filters out irrelevant information from the command.
-  3. TasksGUI.java
-    - Creates and displays the Swing pane which allows users to scroll through tasks and find out their power consumption.
+    1. GUI.java
+      - Generates the first Swing frame and invokes methods from PowerTracker.java
+    2. PowerTracker.java 
+      - Using the Java Process and ProcessBuilder API, uses superuser permissions to run the powermetrics command. Also filters out irrelevant information from the command.
+    3. TasksGUI.java
+      - Creates and displays the Swing pane which allows users to scroll through tasks and find out their power consumption.
 2. Friendly UI
   - Swing was used to create a simple GUI for users to interact with the program, rather than using a terminal-based application.
 
