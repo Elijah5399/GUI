@@ -1,18 +1,18 @@
 # GUI
 This project comprises 3 java files, each of which play a part in creating an application which provides a GUI for users to see the power usage of any task they are running.
 
-**Technologies used**
+## Technologies used
 1. Java
 2. Java Swing framework (for displaying GUI)
 3. powermetrics command line utility for Mac
 4. IntelliJ IDE
 5. Netbeans IDE
 
-**Documentation**
+## Documentation
 
 The Javadoc generated from the project is hosted on: [Project Javadoc](https://spontaneous-semifreddo-5b214e.netlify.app/package-summary.html).
 
-**Features**
+## Features
 1. Simplicity
   - Using the application does not require any technical expertise. Users are only required to run the .jar file.
   - Code is split evenly into the 3 java files: 
@@ -25,7 +25,7 @@ The Javadoc generated from the project is hosted on: [Project Javadoc](https://s
 2. Friendly UI
   - Swing was used to create a simple GUI for users to interact with the program, rather than using a terminal-based application.
 
-**Program flow**
+## Program Flow
 
 1. Upon launching the application, users are prompted to enter their account password. This is because the application runs the powermetrics command, which requires root privileges.
 <img width="407" alt="Screenshot 2023-04-23 at 4 45 06 PM" src="https://user-images.githubusercontent.com/22656175/233829479-8aa39e37-a05c-4206-92a7-b88806cf5056.png">
