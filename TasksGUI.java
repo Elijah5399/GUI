@@ -105,7 +105,7 @@ public class TasksGUI extends javax.swing.JFrame {
      * @param evt ListSelectionEvent
      */
     private void changePower(javax.swing.event.ListSelectionEvent evt) {
-        int index = evt.getFirstIndex();
+        int index = taskList.getSelectedIndex();
         String power = this.tasksAndPowerConsumption[index][1];
         powerDisplay.setText(power);
     }

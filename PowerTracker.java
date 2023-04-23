@@ -57,6 +57,7 @@ public class PowerTracker {
                 String[] taskDetails = intArr[i].split("\\s{2,}");
                 finalArr[i][0] = taskDetails[0];
                 finalArr[i][1] = taskDetails[2];
+                System.out.println(intArr[i]);
             }
             return finalArr;
 
