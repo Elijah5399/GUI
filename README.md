@@ -8,6 +8,9 @@ This project comprises 3 java files, each of which play a part in creating an ap
 4. IntelliJ IDE
 5. Netbeans IDE
 
+**Documentation**
+The Javadoc generated from the project is hosted on: [Project Javadoc](spontaneous-semifreddo-5b214e.netlify.app).
+
 **Features**
 1. Simplicity
   - Using the application does not require any technical expertise. Users are only required to run the .jar file.
