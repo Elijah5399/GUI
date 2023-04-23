@@ -12,12 +12,8 @@ public class TasksGUI extends javax.swing.JFrame {
      * from the parsed powermetrics output.
      */
     public TasksGUI(String[][] tasksAndPowerConsumption) {
+        //listModel represents the contents of the taskList JList.
         this.listModel = new javax.swing.DefaultListModel<>();
-        /*
-        javax.swing.event.ListSelectionListener selectionHandler = 
-                new javax.swing.event.ListSelectionListener<>(
-                () -> powerDisplay.setText(tasksAndPowerConsumption));
-        */
         this.tasksAndPowerConsumption = tasksAndPowerConsumption;
         for (int i = 0; i < tasksAndPowerConsumption.length; i++) {
             this.listModel.addElement(tasksAndPowerConsumption[i][0]);
@@ -95,6 +91,11 @@ public class TasksGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>                        
 
+    /**
+     * A handler method which checks for any change in the JList selection,
+     * and accordingly changes the JLabel powerDisplay to the corresponding CPU Usage.
+     * @param evt ListSelectionEvent
+     */
     private void changePower(javax.swing.event.ListSelectionEvent evt) {
         int index = evt.getFirstIndex();
         String power = this.tasksAndPowerConsumption[index][1];
